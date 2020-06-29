@@ -8,6 +8,6 @@ The project:
 4. The json data received by the ajax call is displayed on the web UI
 # Running the project
 1. Please make sure the project follows the correct path order (`github.com/rohsa/days-count-go`)
-2. Please make sure you're not using/blocking the port 8080 on your localhost
+2. Please make sure you're not using/blocking the port `8080` on your localhost
 2. `cd` to the project directory and run `go build main.go`
 3. Open your web browser and hit the url `www.localhost:8080`
