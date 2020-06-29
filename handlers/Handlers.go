@@ -3,8 +3,8 @@ package handlers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/rohsa/prime-concurrent-go/objects"
-	"github.com/rohsa/prime-concurrent-go/rendoring"
+	"github.com/rohsa/days-count-go/objects"
+	"github.com/rohsa/days-count-go/rendoring"
 	"net/http"
 	"path/filepath"
 	"strings"

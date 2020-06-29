@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rohsa/prime-concurrent-go/handlers"
+	"github.com/rohsa/days-count-go/handlers"
 	"log"
 	"net/http"
 )
