@@ -7,6 +7,6 @@ steps:
 - task: SynopsysPolaris@1
   inputs:
     polarisService: 'POLARIS_SIPSE_SERVER_URL'
-    polarisCommand: 'analyze -w'
+    polarisCommand: '-c "D:\a\1\s\days-count-go\handlers" analyze -w'
     waitForIssues: true
   displayName: 'Command Line Script'
