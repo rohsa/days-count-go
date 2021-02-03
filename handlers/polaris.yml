@@ -1,0 +1,39 @@
+version: "1"
+project:
+  name: handlers
+  branch: handlers
+  revision:
+    name: handlers
+    date: 2020-07-20T09:11:01Z
+capture:
+  fileSystem:
+    ears:
+      extensions: [ear]
+      files:
+      - directory: ${project.projectDir}
+    java:
+      files:
+      - directory: ${project.projectDir}
+    javascript:
+      files:
+      - directory: ${project.projectDir}
+      - excludeRegex: node_modules|bower_components|vendor
+    php:
+      files:
+      - directory: ${project.projectDir}
+    python:
+      files:
+      - directory: ${project.projectDir}
+    ruby:
+      files:
+      - directory: ${project.projectDir}
+    wars:
+      extensions: [war]
+      files:
+      - directory: ${project.projectDir}
+analyze:
+  mode: central
+install:
+  coverity:
+    version: default
+serverUrl: https://qa.dev.polaris.synopsys.com
