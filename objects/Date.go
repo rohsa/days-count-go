@@ -1,6 +1,6 @@
 package objects
 
 type Date struct {
-	Date string
-	LastDayOfMonth int
+	Date           string `json:"Date"`
+	LastDayOfMonth int    `json:"LastDayOfMonth"`
 }

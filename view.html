@@ -66,16 +66,16 @@
 
     <script>
         function postDate() {
-            var request = new XMLHttpRequest();
-            request.open("POST", "/date");
-            request.setRequestHeader("contentType", "application/json")
-
             var date = document.getElementById("date").value;
             if (date === "") {
                 alert("Please enter an input date")
                 return
             }
             var params = JSON.stringify({"Date": date})
+
+            var request = new XMLHttpRequest();
+            request.open("POST", "/date");
+            request.setRequestHeader("contentType", "application/json")
 
             request.onreadystatechange = function() {
                 var div = document.getElementById("response-data");
