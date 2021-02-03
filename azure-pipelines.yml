@@ -7,5 +7,5 @@ steps:
 - task: SynopsysPolaris@1
   inputs:
     polarisService: 'POLARIS_SIPSE_SERVER_URL'
-    polarisCommand: '--co project.projectDir=\"D:\\a\\1\\s\\\" -c "D:\a\1\s\handlers\polaris.yml" analyze -w'
+    polarisCommand: '--co project.projectDir=D\:\a\1\s -c "D:\a\1\s\handlers\polaris.yml" analyze -w'
     waitForIssues: true
